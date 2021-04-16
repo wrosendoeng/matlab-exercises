@@ -1,0 +1,42 @@
+questao 1 - linearcomb01.m
+encontre os coefs da comb linear ... que melhor se aproximam de f(x) = 2sin(x)+cos(-x²) [-0.416,3.148]
+iterando com 128 intervalos
+
+questao 2 - linearcomb02.m
+encontre os coefs da comb linear ... que melhor se aproximam de f(x) = 2sin(x)+cos(-x²)+4 [-3.723,3.148]
+iterando com 128 intervalos
+
+questao 3 - A FAZER
+encontre os produto interno de funçòes f1,f2 em [-1.001,1.058] f1(x)=x² e f2(x)=cos(3x)
+
+questao 4 - A FAZER
+encontre os produto interno de funções f1,f2 em [-1.318,0.904] f1(x)=x² e f2(x)=cos(3x²)
+
+questão 5 - A FAZER 
+considere f(x)=x²+cos(2x³) no espaço vetorial C[-1.139,0.863]. Use a norma para calcular o comprimento ||f||
+
+questão 6 - interpol.m
+encontre as 6 coordenadas x dos pontos ótimos para interpolação para a f(x) = cos(x²)+x²+e^(-x^4) no intervalo [-1.12141,1.183732]
+
+questão 7 - euler_method.m
+use metodo de euler para aproximar o pvi y(0.51083) = 1.26065 com 10 iterações e h = 0.18510
+y'= y + exp(-x^2) + 2
+
+questão 8 - heun.m
+use metodo de heun para aproximar o pvi y(0.84156) = 1.28178 com 10 iterações e h = 0.19161
+y'= y + exp(-x^2) + 3
+
+questão 9 - euler_mpmethod.m
+use metodo de euler de ponto médio para aproximar o pvi y(0.22649) = 1.2667 com 10 iterações e h = 0.19263
+y'= y + exp(-x^2) + 1
+
+questão 10 - rungekutta4.m
+rk4 para o pvi y(0.7883) = 1.89453 com h = 0.14884 e com h = 10 iterações
+y'= y + exp(-x^2) + 1
+
+questão 11 - ralston.m
+ralston para o pvi y(0.80501) = 1.94566 com h = 0.13115 e com h = 10 iterações
+y'= y + exp(-x^2) + 2
+
+
+
